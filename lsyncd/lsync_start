@@ -1,0 +1,4 @@
+#!/bin/bash
+chown -R root:root /root/.ssh
+chmod -R 700 /root/.ssh
+lsyncd /etc/lsyncd/lsyncd.conf.lua
